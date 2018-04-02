@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rgk_menu_title">选项</string>
+    <string name="rgk_back">返回</string>
+    <string name="rgk_options">选项</string>
+    <string name="rgk_confirm">确定</string>
+    <string name="rgk_save">保存</string>
+    <string name="rgk_select_all">全选</string>
+    <string name="rgk_deselect_all">不选</string>
+    <string name="rgk_please_select">请选择</string>
+</resources>

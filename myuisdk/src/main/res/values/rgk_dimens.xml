@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rgk_status_bar_height">18dp</dimen>
+    <dimen name="rgk_title_height">42dp</dimen>
+    <dimen name="rgk_action_bar_height">42dp</dimen>
+    <dimen name="rgk_category_section_header_height">26dp</dimen>
+
+    <dimen name="rgk_icon_size">36dp</dimen>
+
+    <dimen name="rgk_elevation">0dp</dimen>
+
+    <dimen name="rgk_text_size_smallest">8sp</dimen>
+    <dimen name="rgk_text_size_normal">15sp</dimen>
+    <dimen name="rgk_text_size_large">18sp</dimen>
+    <dimen name="rgk_text_size_medium">15sp</dimen>
+    <dimen name="rgk_text_size_small">11sp</dimen>
+
+    <dimen name="rgk_title_layout_subject_text_size">16sp</dimen>
+    <dimen name="rgk_title_layout_sub_subject_text_size">11sp</dimen>
+    <dimen name="rgk_title_layout_button_text_size">14sp</dimen>
+    <dimen name="rgk_title_layout_imagebutton_size">40dp</dimen>
+    <dimen name="rgk_title_padding_left_right">6dp</dimen>
+    <dimen name="rgk_title_button_width">40dp</dimen>
+
+    <dimen name="rgk_view_pager_tab_width">108dp</dimen>
+    <dimen name="rgk_view_pager_tab_underline_padding">14dp</dimen>
+
+    <dimen name="rgk_list_item_height">60dp</dimen>
+    <dimen name="rgk_list_item_single_line_height">48dp</dimen>
+    <dimen name="rgk_list_divider_height">0.3dp</dimen>
+    <dimen name="rgk_divider_height">1px</dimen>
+
+    <dimen name="rgk_list_item_padding_left">2dip</dimen>
+    <dimen name="rgk_list_item_padding_right">2dip</dimen>
+    <!--<dimen name="rgk_list_item_padding_left_large">20dip</dimen>-->
+    <!--<dimen name="rgk_list_item_padding_right_large">20dip</dimen>-->
+    <dimen name="rgk_text_padding">4dp</dimen>
+
+    <!--<dimen name="rgk_menu_width">68dp</dimen>-->
+    <!--<dimen name="rgk_menu_height">68dp</dimen>-->
+    <!--<dimen name="rgk_menu_margin_right">15dp</dimen>-->
+    <!--<dimen name="rgk_menu_margin_top">12dp</dimen>-->
+    <!--<dimen name="rgk_btn_bottom_left_width">56dp</dimen>-->
+    <!--<dimen name="rgk_btn_bottom_right_width">56dp</dimen>-->
+    <!--<dimen name="rgk_btn_bottom_center_width">114dp</dimen>-->
+    <!--<dimen name="rgk_btn_bottom_height">56dp</dimen>-->
+    <!--<dimen name="rgk_btn_top_left_width">50dp</dimen>-->
+    <!--<dimen name="rgk_btn_top_right_width">50dp</dimen>-->
+    <!--<dimen name="rgk_btn_top_center_width">126dp</dimen>-->
+    <!--<dimen name="rgk_btn_top_height">40dp</dimen>-->
+    <!--<dimen name="rgk_body_padding_top">42dp</dimen>-->
+    <!--<dimen name="rgk_body_height">285dp</dimen>-->
+
+    <!--<dimen name="rgk_text_size_largest">40sp</dimen>-->
+    <!--<dimen name="rgk_text_size_title_large">48sp</dimen>-->
+    <!--<dimen name="rgk_text_size_title_medium">16sp</dimen>-->
+    <!--<dimen name="rgk_text_size_title_small">34sp</dimen>-->
+    <!--<dimen name="rgk_text_size_content_large">32sp</dimen>-->
+    <!--<dimen name="rgk_text_size_content_medium">28sp</dimen>-->
+    <!--<dimen name="rgk_text_size_date_time_large">24sp</dimen>-->
+    <!--<dimen name="rgk_text_size_date_time_medium">20sp</dimen>-->
+    <!--<dimen name="rgk_text_size_date_time_small">18sp</dimen>-->
+    <!--<dimen name="rgk_text_size_enlarged_text">46sp</dimen>-->
+    <!--<dimen name="rgk_text_size_phone_number">30sp</dimen>-->
+
+
+    <!-- Bottom button -->
+    <dimen name="rgk_button_height">36dp</dimen>
+    <dimen name="rgk_single_button_width">215dp</dimen>
+
+    <dimen name="rgk_bottom_button_height">42dp</dimen>
+    <!--<dimen name="rgk_bottom_button_left_width">238dp</dimen>-->
+    <!--<dimen name="rgk_bottom_button_right_width">119dp</dimen>-->
+    <!--<dimen name="rgk_bottom_button_normal_width">179dp</dimen>-->
+    <!--<dimen name="rgk_bottom_button_divider_height">30dp</dimen>-->
+    <dimen name="rgk_bottom_button_margin">18dp</dimen>
+    <!--<dimen name="rgk_bottom_button_center_divider_width">1dp</dimen>-->
+    <!--<dimen name="rgk_bottom_divider_height">26dp</dimen>-->
+    <!--<dimen name="rgk_bottom_button_stroke_width">1px</dimen>-->
+    <!--<dimen name="rgk_bottom_button_radius">20dp</dimen>-->
+    <!--<dimen name="rgk_bottom_action_button_height">40dp</dimen>-->
+    <dimen name="rgk_bottom_button_text_size">14sp</dimen>
+
+    <!--<dimen name="rgk_alert_dialog_button_width">116dp</dimen>-->
+    <!--<dimen name="rgk_alert_dialog_button_height">116dp</dimen>-->
+
+    <!-- List multi select -->
+    <!--<dimen name="rgk_list_multiselect_title_height">68dp</dimen>-->
+
+
+    <!-- Checkbox -->
+    <!--<dimen name="rgk_checkbox_padding_left">10dip</dimen>-->
+    <!--<dimen name="rgk_checkbox_padding_right">10dip</dimen>-->
+    <!--<dimen name="rgk_multi_select_title_padding_left">@dimen/rgk_list_item_padding_left</dimen>-->
+    <!--<dimen name="rgk_multi_select_title_padding_right">@dimen/rgk_list_item_padding_left</dimen>-->
+    <!--<dimen name="rgk_multi_select_title_text_size">@dimen/rgk_title_layout_subject_text_size</dimen>-->
+    <!--<dimen name="rgk_multi_select_title_number_size">@dimen/rgk_text_size_large</dimen>-->
+
+    <dimen name="progressbar_height_small">2dp</dimen>
+    <dimen name="progressbar_height_large">2dp</dimen>
+    <!--<dimen name="alert_dialog_round_padding">27dip</dimen>-->
+
+</resources>

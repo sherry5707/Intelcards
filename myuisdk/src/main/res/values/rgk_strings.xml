@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rgk_blank" translatable="false"></string>
+
+    <string name="rgk_menu_title">Options</string>
+    <string name="rgk_back">Back</string>
+    <string name="rgk_options">Option</string>
+    <string name="rgk_confirm">Confirm</string>
+    <string name="rgk_save">Save</string>
+    <string name="rgk_select_all">All</string>
+    <string name="rgk_deselect_all">None</string>
+    <string name="rgk_please_select">Please Select</string>
+</resources>

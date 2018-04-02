@@ -1,0 +1,9 @@
+<com.ragentek.myuisdk.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:background="@color/rgk_title_layout_background"
+    style="@style/RGK.AppCompatToolbar">
+</com.ragentek.myuisdk.Toolbar>

@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:2:1-7:12
+	package
+		ADDED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:2:122-152
+		INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml
+		INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:2:94-121
+		INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml
+		INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:2:70-93
+		INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml
+		INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:3:6-5:41
+INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:3:6-5:41
+INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:3:6-5:41
+INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:3:6-5:41
+INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:3:6-5:41
+	android:targetSdkVersion
+		ADDED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:5:9-38
+		INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml
+		INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:4:9-35
+		INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml
+		INJECTED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml
+application
+ADDED from D:\mywork\intelcards\myuisdk\src\main\AndroidManifest.xml:6:3-17

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- for general color -->
+    <color name="rgk_primary_blue">#ff4A90E2</color>
+    <color name="rgk_primary_green">#ff3fcab8</color>
+    <color name="rgk_primary_orange">#fff7a145</color>
+    <color name="rgk_primary_red">#ffe17272</color>
+
+    <color name="rgk_primary_text">#DE000000</color>
+    <color name="rgk_secondary_text">#8A000000</color>
+    <color name="rgk_hint_text">#4D000000</color>
+    <color name="rgk_widget_button">#30000000</color>
+    <color name="rgk_disabled_text">#4D000000</color>
+    <color name="rgk_primary_background">#fff5f5f5</color>
+    <color name="rgk_divider">#ffdedede</color>
+    <color name="rgk_list_divider">@color/rgk_divider</color>
+
+    <!--<color name="rgk_multi_select_title_text_color">@color/rgk_primary_text</color>-->
+    <!--<color name="rgk_multi_select_title_number_color">#ffff5b0a</color>-->
+    <!-- EditText -->
+    <color name="rgk_textfield_text_focused">@color/rgk_primary_text</color>
+
+    <!--<color name="rgk_selection_title">#ff2ca6e0</color>-->
+
+    <!-- title layout -->
+    <color name="rgk_title_layout_background">#ffeeeeee</color>
+    <color name="rgk_title_layout_subject_text_color">@color/rgk_primary_text</color>
+    <color name="rgk_title_layout_sub_subject_text_color">@color/rgk_secondary_text</color>
+    <color name="rgk_title_layout_button_text_color">@color/rgk_primary_green</color>
+    <color name="rgk_title_icon_fill_color">#ff838383</color>
+    <!--<color name="rgk_title_layout_left_subject_text_color">#ffff5b0a</color> &lt;!&ndash; new UI cor3 &ndash;&gt;-->
+    <!--<color name="rgk_title_layout_left_subject_text_color_pressed">#7fff5b0a</color> &lt;!&ndash; new UI cor3 50% &ndash;&gt;-->
+    <!-- caredear alert dialog -->
+    <!--<color name="rgk_alert_dialog_title_background">#ffffffff</color> &lt;!&ndash; remove background &ndash;&gt;-->
+    <!--<color name="rgk_alert_dialog_text_color">@color/rgk_primary_text</color>-->
+    <!--<color name="rgk_alert_dialog_title_divider_background">@color/rgk_list_divider</color>-->
+
+    <!-- new UI caredear action button layout -->
+    <color name="rgk_action_button_background">#ffeeeeee</color>
+    <!--<color name="rgk_action_button_text_color_normal">#ffff5b0a</color>-->
+    <!--<color name="rgk_action_button_text_color_pressed">#7fff5b0a</color>-->
+    <!--<color name="rgk_action_button_text_color_disabled">#ffd9d9d9</color>-->
+
+    <!--<color name="rgk_btn_bg_color">#ffb9b9b9</color>-->
+    <!--<color name="rgk_btn_vertical_divider">#ffd2d2d2</color>-->
+    <color name="widget_title_bg">#E5FFFFFF</color>
+</resources>

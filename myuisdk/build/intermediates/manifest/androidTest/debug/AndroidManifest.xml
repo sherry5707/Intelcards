@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ragentek.myuisdk.test" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="25" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.ragentek.myuisdk.test"
+        android:targetPackage="com.ragentek.myuisdk.test" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.0" />
+
+    <application android:debuggable="true" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@dimen/rgk_list_item_padding_left"
+    android:insetRight="@dimen/rgk_list_item_padding_right"
+    android:drawable="@color/rgk_list_divider" >
+</inset>

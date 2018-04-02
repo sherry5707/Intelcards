@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RGK.AppCompatTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorPrimaryDark">@color/rgk_title_layout_background</item>
+        <item name="colorPrimaryDark">@color/rgk_title_layout_background</item>
+        <item name="android:colorPrimary">@color/rgk_title_layout_background</item>
+        <item name="colorPrimary">@color/rgk_title_layout_background</item>
+        <item name="android:colorAccent">@color/rgk_primary_green</item>
+        <item name="colorAccent">@color/rgk_primary_green</item>
+        <item name="android:textColorPrimary">@color/rgk_primary_text</item>
+        <item name="android:textColorSecondary">@color/rgk_secondary_text</item>
+        <item name="android:textAppearance">@style/RGK.TextAppearance</item>
+        <item name="android:textAppearanceButton">@style/RGK.TextAppearance.Medium</item>
+        <item name="android:textAppearanceLarge">@style/RGK.TextAppearance.Large</item>
+        <item name="android:textAppearanceMedium">@style/RGK.TextAppearance.Medium</item>
+        <item name="android:textAppearanceSmall">@style/RGK.TextAppearance.Small</item>
+        <item name="android:textAppearanceListItem">@style/RGK.TextAppearance.Medium</item>
+        <item name="android:textAppearanceListItemSmall">@style/RGK.TextAppearance.Medium</item>
+        <item name="android:textAppearanceListItemSecondary">@style/RGK.TextAppearance.Small</item>
+        <item name="android:editTextStyle">@style/RGK.EditText</item>
+        <item name="android:buttonBarButtonStyle">@style/RGK.BottomButton</item>
+        <item name="android:dividerVertical">@drawable/rgk_divider</item>
+        <item name="android:dividerHorizontal">@drawable/rgk_divider</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/rgk_list_item_padding_right</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/rgk_list_item_padding_left</item>
+        <item name="android:listPreferredItemHeight">@dimen/rgk_list_item_height</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/rgk_list_item_single_line_height</item>
+        <item name="android:listDivider">@drawable/rgk_list_divider</item>
+        <item name="android:selectableItemBackground">@drawable/rgk_item_background</item>
+        <item name="selectableItemBackground">@drawable/rgk_item_background</item>
+
+        <item name="android:listChoiceIndicatorMultiple">@drawable/rgk_btn_check</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/rgk_btn_radio</item>
+        <item name="android:checkboxStyle">@style/RGK.CheckBox</item>
+        <item name="android:radioButtonStyle">@style/RGK.RadioButton</item>
+        <item name="android:buttonStyle">@style/RGK.Button</item>
+
+        <item name="android:switchStyle">@style/RGK.Switch</item>
+        <item name="switchStyle">@style/RGK.AppCompatSwitch</item>
+        <item name="android:progressBarStyleHorizontal">@style/RGK.ProgressBar.Horizontal</item>
+        <item name="android:seekBarStyle">@style/RGK.SeekBar</item>
+
+        <item name="android:preferenceStyle">@style/RGK.Preference</item>
+        <item name="android:preferenceInformationStyle">@style/RGK.Preference</item>
+        <item name="android:preferenceScreenStyle">@style/RGK.Preference</item>
+        <item name="android:preferenceCategoryStyle">@style/RGK.Preference.Category</item>
+        <item name="android:switchPreferenceStyle">@style/RGK.Preference.Switch</item>
+        <item name="android:checkBoxPreferenceStyle">@style/RGK.Preference.CheckBox</item>
+        <item name="android:dialogPreferenceStyle">@style/RGK.Preference.Dialog</item>
+        <item name="android:yesNoPreferenceStyle">@style/RGK.Preference.Dialog.YesNoPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/RGK.EditTextPreference</item>
+        <item name="android:ringtonePreferenceStyle">@style/RGK.RingtongPreference</item>
+
+        <item name="android:dropDownListViewStyle">@android:style/Widget.Material.ListView</item>
+        <item name="android:spinnerItemStyle">@style/RGK.SpinnerItem</item>
+
+        <!-- actionBar -->
+        <item name="android:homeAsUpIndicator">@drawable/rgk_ic_back_arrow</item>
+        <item name="android:actionBarSize">@dimen/rgk_action_bar_height</item>
+        <item name="android:actionModeStyle">@style/RGK.ActionMode</item>
+        <item name="android:actionBarStyle">@style/RGK.ActionBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/RGK.ActionButton.Overflow</item>
+        <item name="android:actionModeBackground">@color/rgk_title_layout_background</item>
+        <item name="android:actionModeSplitBackground">@color/rgk_title_layout_background</item>
+        <item name="android:toolbarStyle">@style/RGK.Toolbar</item>
+        <!-- actionBar AppCompat -->
+        <item name="homeAsUpIndicator">@drawable/rgk_ic_back_arrow</item>
+        <item name="actionBarSize">@dimen/rgk_action_bar_height</item>
+        <item name="actionModeStyle">@style/RGK.AppCompat.ActionMode</item>
+        <item name="actionBarStyle">@style/RGK.AppCompat.ActionBar</item>
+        <item name="actionOverflowButtonStyle">@style/RGK.AppCompat.ActionButton.Overflow</item>
+        <item name="actionModeBackground">@color/rgk_title_layout_background</item>
+        <item name="actionModeSplitBackground">@color/rgk_title_layout_background</item>
+        <item name="toolbarStyle">@style/RGK.AppCompatToolbar</item>
+    </style>
+
+    <style name="RGK.AppCompatTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RGK.Theme" parent="@android:style/Theme.Material.Light">
+        <!--<item name="android:windowBackground">@color/rgk_primary_background</item>-->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorPrimaryDark">@color/rgk_title_layout_background</item>
+        <item name="android:colorPrimary">@color/rgk_title_layout_background</item>
+        <item name="android:colorAccent">@color/rgk_primary_green</item>
+        <item name="android:textColorPrimary">@color/rgk_primary_text</item>
+        <item name="android:textColorSecondary">@color/rgk_secondary_text</item>
+        <item name="android:textAppearance">@style/RGK.TextAppearance</item>
+        <item name="android:textAppearanceButton">@style/RGK.TextAppearance.Medium</item>
+        <item name="android:textAppearanceLarge">@style/RGK.TextAppearance.Large</item>
+        <item name="android:textAppearanceMedium">@style/RGK.TextAppearance.Medium</item>
+        <item name="android:textAppearanceSmall">@style/RGK.TextAppearance.Small</item>
+        <item name="android:textAppearanceListItem">@style/RGK.TextAppearance.Medium</item>
+        <item name="android:textAppearanceListItemSmall">@style/RGK.TextAppearance.Small</item>
+        <item name="android:textAppearanceListItemSecondary">@style/RGK.TextAppearance.Small</item>
+        <item name="android:editTextStyle">@style/RGK.EditText</item>
+        <item name="android:buttonBarButtonStyle">@style/RGK.BottomButton</item>
+        <item name="android:dividerVertical">@drawable/rgk_divider</item>
+        <item name="android:dividerHorizontal">@drawable/rgk_divider</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/rgk_list_item_padding_right</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/rgk_list_item_padding_left</item>
+        <item name="android:listPreferredItemHeight">@dimen/rgk_list_item_height</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/rgk_list_item_single_line_height</item>
+        <item name="android:listDivider">@drawable/rgk_list_divider</item>
+        <item name="android:selectableItemBackground">@drawable/rgk_item_background</item>
+        <item name="selectableItemBackground">@drawable/rgk_item_background</item>
+
+        <item name="android:listChoiceIndicatorMultiple">@drawable/rgk_btn_check</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/rgk_btn_radio</item>
+        <item name="android:checkboxStyle">@style/RGK.CheckBox</item>
+        <item name="android:radioButtonStyle">@style/RGK.RadioButton</item>
+        <item name="android:buttonStyle">@style/RGK.Button</item>
+
+        <item name="android:switchStyle">@style/RGK.Switch</item>
+        <item name="android:progressBarStyleHorizontal">@style/RGK.ProgressBar.Horizontal</item>
+        <item name="android:seekBarStyle">@style/RGK.SeekBar</item>
+
+        <item name="android:preferenceStyle">@style/RGK.Preference</item>
+        <item name="android:preferenceInformationStyle">@style/RGK.Preference</item>
+        <item name="android:preferenceScreenStyle">@style/RGK.Preference</item>
+        <item name="android:preferenceCategoryStyle">@style/RGK.Preference.Category</item>
+        <item name="android:switchPreferenceStyle">@style/RGK.Preference.Switch</item>
+        <item name="android:checkBoxPreferenceStyle">@style/RGK.Preference.CheckBox</item>
+        <item name="android:dialogPreferenceStyle">@style/RGK.Preference.Dialog</item>
+        <item name="android:yesNoPreferenceStyle">@style/RGK.Preference.Dialog.YesNoPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/RGK.EditTextPreference</item>
+        <item name="android:ringtonePreferenceStyle">@style/RGK.RingtongPreference</item>
+
+        <item name="android:dropDownListViewStyle">@android:style/Widget.Material.ListView</item>
+        <item name="android:spinnerItemStyle">@style/RGK.SpinnerItem</item>
+        <!--<item name="android:spinnerDropDownItemStyle">@style/RGK.DropDownItem.Spinner</item>-->
+
+        <!-- actionBar -->
+        <item name="android:homeAsUpIndicator">@drawable/rgk_ic_back_arrow</item>
+        <item name="android:actionBarSize">@dimen/rgk_action_bar_height</item>
+        <item name="android:actionModeStyle">@style/RGK.ActionMode</item>
+        <item name="android:actionBarStyle">@style/RGK.ActionBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/RGK.ActionButton.Overflow</item>
+        <item name="android:actionModeBackground">@color/rgk_title_layout_background</item>
+        <item name="android:actionModeSplitBackground">@color/rgk_title_layout_background</item>
+        <item name="android:toolbarStyle">@style/RGK.Toolbar</item>
+
+        <!--<item name="android:listSeparatorTextViewStyle">@style/RGK.ListSeparator</item>-->
+
+        <!--<item name="android:activatedBackgroundIndicator">@drawable/rgk_activated_background</item>-->
+        <!--<item name="android:autoCompleteTextViewStyle">@style/RGK.AutoCompleteTextView</item>-->
+        <!--<item name="android:tabWidgetStyle">@style/RGK.TabWidgetStyle</item>-->
+        <!--<item name="android:textCursorDrawable">@drawable/rgk_text_cursor_holo_light</item>-->
+
+        <!-- Animation Style -->
+        <!--<item name="android:windowAnimationStyle">@style/RGK.AnimationSettings</item>-->
+
+        <!--<item name="android:listPopupWindowStyle">@style/RGK.ListPopupWindow</item>-->
+        <!--<item name="android:popupWindowStyle">@style/RGK.PopWindow</item>-->
+        <!--&lt;!&ndash; add for TimePicker and  NumberPicker&ndash;&gt;-->
+        <!--<item name="cdNumberPickerStyle">@style/CdHoloNumberPicker</item>-->
+        <!--<item name="cdTimePickerStyle">@style/CdHoloTimePicker</item>-->
+    </style>
+
+    <!--<style name="RGK.AnimationSettings" parent="@android:style/Animation.Activity">-->
+        <!--<item name="android:activityOpenEnterAnimation">@anim/slide_left_in</item>-->
+        <!--<item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>-->
+        <!--<item name="android:activityCloseEnterAnimation">@anim/slide_right_in</item>-->
+        <!--<item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>-->
+        <!--<item name="android:taskOpenEnterAnimation">@anim/slide_left_in</item>-->
+        <!--<item name="android:taskOpenExitAnimation">@anim/slide_left_out</item>-->
+        <!--<item name="android:taskCloseEnterAnimation">@anim/slide_right_in</item>-->
+        <!--<item name="android:taskCloseExitAnimation">@anim/slide_right_out</item>-->
+        <!--<item name="android:taskToFrontEnterAnimation">@anim/slide_left_in</item>-->
+        <!--<item name="android:taskToFrontExitAnimation">@anim/slide_left_out</item>-->
+        <!--<item name="android:taskToBackEnterAnimation">@anim/slide_right_in</item>-->
+        <!--<item name="android:taskToBackExitAnimation">@anim/slide_right_out</item>-->
+    <!--</style>-->
+
+    <style name="RGK.Theme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="RGK.Theme.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="RGK.Theme.AlertActivity">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.7</item>
+    </style>
+    <style name="RGK.Theme.NoActionBar.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

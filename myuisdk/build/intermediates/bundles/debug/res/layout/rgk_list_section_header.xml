@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rgk_list_section_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/rgk_category_section_header_height"
+    android:background="@color/rgk_title_layout_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingRight="@dimen/rgk_list_item_padding_right" >
+
+    <TextView
+        android:id="@+id/rgk_list_section_header_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/rgk_list_item_padding_left"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/rgk_secondary_text"
+        android:textSize="@dimen/rgk_text_size_small" />
+
+</LinearLayout>

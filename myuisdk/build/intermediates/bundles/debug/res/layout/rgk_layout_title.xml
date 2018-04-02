@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rgk_layout_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:clickable="true"
+    android:descendantFocusability="afterDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/rgk_title_height"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/rgk_title_padding_left_right"
+        android:paddingStart="@dimen/rgk_title_padding_left_right"
+        android:paddingRight="@dimen/rgk_title_padding_left_right"
+        android:paddingEnd="@dimen/rgk_title_padding_left_right">
+
+        <RelativeLayout
+            android:id="@id/rgk_title_left_view"
+            android:layout_width="@dimen/rgk_title_button_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            >
+            <ImageButton
+                android:id="@id/rgk_title_icon_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:src="@drawable/rgk_ic_back_arrow"
+                android:scaleType="centerInside"/>
+
+            <TextView
+                android:id="@id/rgk_title_btn_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/rgk_back"
+                android:textAppearance="@style/RGK.TextAppearance.TitleButton"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@id/rgk_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toLeftOf="@+id/rgk_title_right_view"
+            android:layout_toStartOf="@+id/rgk_title_right_view"
+            android:layout_toRightOf="@+id/rgk_title_left_view"
+            android:layout_toEndOf="@+id/rgk_title_left_view"
+            android:gravity="center"
+            android:paddingLeft="@dimen/rgk_text_padding"
+            android:paddingStart="@dimen/rgk_text_padding"
+            android:paddingRight="@dimen/rgk_text_padding"
+            android:paddingEnd="@dimen/rgk_text_padding"
+            android:singleLine="true"
+            android:textAppearance="@style/RGK.TextAppearance.Title" >
+        </TextView>
+
+        <RelativeLayout
+            android:id="@id/rgk_title_right_view"
+            android:layout_width="@dimen/rgk_title_button_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            >
+            <ImageButton
+                android:id="@id/rgk_title_icon_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:src="@drawable/rgk_ic_overflow_menu"
+                android:scaleType="centerInside"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@id/rgk_title_btn_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/rgk_options"
+                android:textAppearance="@style/RGK.TextAppearance.TitleButton"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
