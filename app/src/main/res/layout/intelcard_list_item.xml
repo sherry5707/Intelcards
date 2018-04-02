@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/intelcard_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:gravity="center">
+    <!-- Day group heading. Used to show a "today", "tomorrow", "more"
+     above a group of call log entries. -->
+
+    <LinearLayout
+        android:id="@+id/day_group_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/daygroup_diliver"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/navigation_color" />
+
+        <TextView
+            android:id="@+id/day_group_label"
+            android:layout_width="wrap_content"
+            android:layout_height="20dip"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/common_white" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/daygroup_diliver"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/navigation_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/day_group_ll"
+        android:orientation="vertical"></LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/digit"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/day_group_ll"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/menu" />
+    </RelativeLayout>
+</RelativeLayout>

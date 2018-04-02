@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="p40black">#66000000</color>
+    <color name="widget_diliver">#0f000000</color>
+    <color name="menu_white_bg">#AAFFFFFF</color>
+    <color name="menu_press">#0E000000</color>
+    <color name="navigation_color">#8CFFFFFF</color>
+    <color name="ignore_color">#6E7273</color>
+    <color name="p40white">#CCFFFFFF</color>
+    <color name="card_bg">#11000000</color>
+</resources>

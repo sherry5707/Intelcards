@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Intelcards</string>
+
+    <string name="intel_card_list_title">Intelcards</string>
+    <string name="daygroup_today">today</string>
+    <string name="daygroup_tomorrow">tomorrow</string>
+    <string name="daygroup_more">more</string>
+    <string name="daygroup_earlier">earlier</string>
+    <string name="show_more">More</string>
+    <string name="show_detail">show detail</string>
+    <string name="ignore_item">delete this item</string>
+    <string name="ignore">ignore</string>
+</resources>

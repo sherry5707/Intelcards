@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/day_group_ll"
+    android:layout_toLeftOf="@+id/digit"
+    android:background="@drawable/menu_shape"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/show_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_selector1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="@string/show_detail"
+            android:textColor="@color/rgk_primary_orange" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ignore_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_selector2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="@string/ignore_item" />
+    </LinearLayout>
+</LinearLayout>

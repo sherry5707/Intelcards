@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智能卡片</string>
+
+    <string name="intel_card_list_title">智能卡片</string>
+    <string name="daygroup_earlier">更早</string>
+    <string name="daygroup_today">今天</string>
+    <string name="daygroup_tomorrow">明天</string>
+    <string name="daygroup_more">更多</string>
+    <string name="show_more">查看更多</string>
+    <string name="show_detail">詳情展示</string>
+    <string name="ignore_item">刪除此條</string>
+    <string name="ignore">忽略</string>
+</resources>
